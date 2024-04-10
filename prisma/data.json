@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Restaurants",
+    "image": "restaurant.jpg",
+    "questions": [
+      {
+        "question": "Best Mexican food",
+        "answers": [
+          "El Buen Sazón",
+          "Rio Adobe Southwest Cafe",
+          "Frontera Grill Taco Truck",
+          "Aqui Cupertino"
+        ]
+      },
+      {
+        "question": "Best Thai food",
+        "answers": [
+          "Siam Thai Cuisine",
+          "Olarn Thai Cuisine",
+          "Pineapple Thai",
+          "Khaosan Thai Restaurant"
+        ]
+      },
+      {
+        "question": "Best Indian food",
+        "answers": [
+          "SpiceKlub",
+          "Avachi Biryani House",
+          "Dosateria",
+          "Tandoori Oven"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bars",
+    "image": "bars.jpg",
+    "questions": [
+      {
+        "question": "Best Brew Pub",
+        "answers": [
+          "BJ's Restaurant & Brewhouse",
+          "DC Tap House",
+          "Gordon Biersch Brewery Restaurant",
+          "Rock Bottom Restaurant & Brewery"
+        ]
+      },
+      {
+        "question": "Best Sports Bar",
+        "answers": [
+          "Park Lane lounge",
+          "Paul & Eddie's Monta Vista Inn",
+          "Final Score Sports Bar",
+          "Walk-On's Sports Bistreaux"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Breakfast Spots",
+    "image": "breakfast.jpg",
+    "questions": [
+      {
+        "question": "Best Cafe",
+        "answers": [
+          "HECHAA",
+          "Bitter + Sweet",
+
+          "Bobbi's Coffee Shop & Cafe",
+          "K Cafe Patisserie & Tea House",
+          "Voyager Coffee"
+        ]
+      },
+      {
+        "question": "Best Breakfast",
+        "answers": [
+          "Bobbi's Coffee Shop & Cafe",
+          "Holder's Country Inn - Cupertino",
+          "Sweet Maple"
+        ]
+      }
+    ]
+  }
+]

@@ -30,6 +30,9 @@
     "start": "vite --open --mode ssr",
     "qwik": "qwik"
   },
+  "prisma": {
+    "seed": "node ./prisma/seed.mjs"
+  },
   "devDependencies": {
     "@auth/core": "^0.13.0",
     "@builder.io/qwik": "^1.5.2",
