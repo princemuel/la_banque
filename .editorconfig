@@ -13,7 +13,7 @@ indent_style = space
 indent_size = 2
 
 # Specific settings for Rust/Python files
-[{**.rs, **.py, **.php}]
+[{**.rs, **.py}]
 indent_size = 4
 
 # Specific settings for Markdown files

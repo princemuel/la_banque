@@ -23,5 +23,8 @@
   "window.autoDetectColorScheme": true,
   "workbench.tree.indent": 8,
 
-  "editor.formatOnSaveMode": "file"
+  "editor.formatOnSaveMode": "file",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  }
 }
