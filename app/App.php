@@ -32,7 +32,7 @@ function getTransactions(string $fileName): array
   $transactions = [];
 
   while (($transaction = fgetcsv($file)) !== false) {
-    $transactions[] = $transaction;
+    $transactions[] = extractTransaction($transaction);
   }
 
   return $transactions;
@@ -41,7 +41,7 @@ function getTransactions(string $fileName): array
 
 function extractTransaction(array $transaction): array
 {
-  [$date,  $checkNumber,  $amount,  $description] = $transaction;
+  [$date,  $checkNumber,   $description,  $amount] = $transaction;
 
   $amount = (float) str_replace(['$', ','], '', $amount);
 
