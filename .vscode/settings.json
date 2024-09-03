@@ -1,0 +1,27 @@
+{
+  "editor.tabSize": 2,
+  "editor.inlineSuggest.enabled": true,
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 80,
+  "json.validate.enable": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "dotenv.enableAutocloaking": false,
+  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.folders.theme": "specific",
+  "emmet.includeLanguages": {
+    "typescriptreact": "html"
+  },
+  "emmet.preferences": {
+    "output.selfClosingStyle": "xhtml"
+  },
+  "window.autoDetectColorScheme": true,
+  "workbench.tree.indent": 8,
+
+  "editor.formatOnSaveMode": "file"
+}
